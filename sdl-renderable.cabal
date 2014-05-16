@@ -1,0 +1,16 @@
+name:           sdl-renderable
+version:        0.1
+cabal-version:  >= 1.2
+build-type:     Simple
+author:         Brandon
+
+library
+  hs-source-dirs:  src
+  build-depends:   
+                   base >= 4,
+                   SDL
+  ghc-options:     -Wall
+  exposed-modules: 
+                   Graphics.UI.SDL.RenderUtils,
+                   Graphics.UI.SDL.Renderable
+
